@@ -1,14 +1,29 @@
 # Evershop Python Project
 
-Este proyecto contiene un marco de trabajo para automatizar un caso de prueba en este sitio web. Para ejecutar este proyecto, sigue estos pasos:
+This project contains a framework to automate a test case on this website. To execute this project, follow these steps:
 
-## Configuración
+## Setup
 
-Antes de ejecutar el proyecto, necesitarás instalar algunas dependencias. Aquí están los pasos necesarios:
+Before running the project, you will need to install some dependencies. Here are the necessary steps:
+Run the following command to install Selenium:
 
-### Paso 1: Instalar Selenium
-
-Ejecuta el siguiente comando para instalar Selenium:
-
+### Step 1: Install Selenium
 ```bash
-pip3 install selenium
+python install selenium
+```
+
+### Step 2: Update Selenium
+```bash
+python install selenium
+```
+
+### Step3: Install WebDriver-Manager 
+```bash
+python install webdriver-manager
+```
+Finally
+
+We need to use this command to execute the main test
+```bash
+python testSuite.py
+```
